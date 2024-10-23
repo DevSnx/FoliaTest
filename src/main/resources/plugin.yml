@@ -1,0 +1,11 @@
+name: Lobbysystem
+version: '${project.version}'
+main: de.devsnx.xaldrion.lobbysystem.Lobbysystem
+api-version: '1.20'
+author: DevSnx
+
+depend:
+  - Folia
+
+# Add this line to specify Folia support
+softdepend: [Folia]
